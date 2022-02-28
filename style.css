@@ -6,20 +6,25 @@ body {
     position: relative;
     font-family: "Goudy Bookletter 1911", sans-serif;
     font-size: 20px;
-    background-color: navy;
+    background-color: whitesmoke;
     color: #4F4846;
 }
 .header {
     display: flex;
-    justify-content: space-between; 
+    justify-content: space-between;
     padding: 20px;
     background: #13293d;
     color: #fff;
 }
 
 .header .eli {
-    color: red;
+    color: rgb(7, 29, 100);
     
+}
+
+h1 {
+    border: 5px solid rgb(145, 82, 10);
+    background-color: rgb(145, 82, 10);
 }
 
 li {
@@ -30,5 +35,20 @@ li {
     cursor: pointer;
     display: flex;
     flex-wrap: wrap;
+}
+
+h2 {
+    height: 100px;
+    width: 100px;
+    padding: 20px;
+    margin: 50px;
+
+}
+
+article, 
+p {
+    border: 50px solid black;
+    padding: 20px;
+    margin-left: 600px;
 }
 
