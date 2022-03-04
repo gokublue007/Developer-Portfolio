@@ -19,14 +19,39 @@ body {
     color: rgb(0, 0, 0);
 }
 
-.one {
-
+.cool {
+    height: 200px;
+    width: 100%;
+    background-image: url(../Developer-Portfolio/Images/blue.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: end;
+    justify-content: end;
 }
 
 section {
     display: flex;
     padding: 0%;
     background-color: #007bb5;
+}
+
+.grid-container {
+    display: flex;
+    column-gap: 50px;
+    grid-template-columns: 100px 200px 100px 100px 100px;
+    padding: 10px;
+    align-items: center;
+    flex-direction: column;
+}
+
+.grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    margin: 2px;
+    font-size: 30px;
+    text-align: center;
 }
 
 .header .eli {
@@ -41,8 +66,8 @@ section {
 }
 
 h1 {
-    border: 5px solid #007bb5;
-    background-color: #007bb5;
+    border: 5px solid #5787ee;
+    background-color: #2660df;
     margin-right: 26%;
     width: 34%;
     text-align: end;
@@ -57,14 +82,19 @@ li {
 
 h2,
 h3,
-h4 {
+h5 {
     height: 100%;
     width: 100%;
     padding: 2%;
-    margin-left: 15%;
     text-decoration: underline;
     font-size: 150%;
 
+}
+
+h5 {
+    font-size: 20px;
+    font-family: sans-serif;
+    margin-left: -35px;
 }
 
 p {
@@ -74,19 +104,14 @@ p {
     margin-top: -139px;
 }
 
-.cool {
-    height: 200px;
-    width: 100%;
-    background-image: url(../Developer-Portfolio/Images/blue.png);
-    background-size: cover;
-    background-position: center;
+h4 {
     display: flex;
-    align-items: end;
-    justify-content: end;
 }
+
 
 .fa {
     padding: 20px;
+    margin: 20px;
     font-size: 30px;
     width: 50px;
     text-align: center;
@@ -113,4 +138,16 @@ p {
 .fa-linkedin {
     background: #007bb5;
     color: white;
+}
+
+h5 {
+    font-size: 20px;
+    font-family: sans-serif;
+    margin-left: -35px;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
