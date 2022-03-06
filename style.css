@@ -1,10 +1,14 @@
+/* This allows me to select everything with a star symbol that apply to all. */
+
 * {
 padding: 8px;
 font-size: 20px;
-font-family: sans-serif;
+font-family: sans-serif;                     
 box-sizing: border-box;
 
 }
+
+/* add position and fonts to css */
 
 body {
     position: relative;
@@ -13,6 +17,9 @@ body {
     background-color: whitesmoke;
     color: #4F4846;
 }
+
+/* created a header and add a background image */
+
 .header {
     display: flex;
     background: rgb(87, 87, 87);
@@ -28,30 +35,79 @@ body {
     display: flex;
     align-items: end;
     justify-content: end;
+    font-size: 30px;
 }
 
 section {
     display: flex;
     padding: 0%;
-    background-color: #007bb5;
 }
 
-.grid-container {
+/* added flex to come coloum of rows for work secetion */
+
+
+.flex-container {
     display: flex;
-    column-gap: 50px;
-    grid-template-columns: 100px 200px 100px 100px 100px;
-    padding: 10px;
-    align-items: center;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: space-between;
+    min-height: 200px;
+
 }
 
-.grid-item {
-    background-color: rgba(255, 255, 255, 0.8);
-    border: 1px solid rgba(0, 0, 0, 0.8);
+.left-col {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex: 0 0 20%;
+    border-right: 4px solid black;
+}
+
+.right-col {
+    display: flex;
+    flex: 0 0 75%;
+    justify-content: center;
+    align-items: center;
+}
+
+.project {
     padding: 20px;
     margin: 2px;
     font-size: 30px;
     text-align: center;
+    cursor: pointer;
+}
+
+.surf-report {
+    background-image: url(./Images/photo-1604964432806-254d07c11f32.jpg);
+    height: 75%;
+    width: 40%;
+    grid-row-start: 1;
+}
+
+.LED-Wall {
+    background-image: url(./Images/code.jpeg);
+    height: 75%;
+    width: 40%;
+}
+
+.Calculator {
+    background-image: url(./Images/picture3.webp);
+    height: 75%;
+    width: 40%;
+}
+
+.Pastel {
+    background-image: url(./Images/picture4.jpeg);
+    height: 75%;
+    width: 40%;
+}
+
+.Buddy {
+    background-image: url(./Images/picture5.jpeg);
+    height: 75%;
+    width: 40%;
 }
 
 .header .eli {
@@ -63,11 +119,14 @@ section {
 .as {
     padding: 0px 0px;
     font-size: 30px;
+    color: white;
 }
 
+/* adding style to H1-h5 and color */
+
 h1 {
-    border: 5px solid #5787ee;
-    background-color: #2660df;
+    border: 5px solid black;
+    background-color: black;
     margin-right: 26%;
     width: 34%;
     text-align: end;
@@ -79,22 +138,19 @@ li {
     display: flex;
     align-items: flex-end;
 }
-
-h2,
-h3,
-h5 {
-    height: 100%;
-    width: 100%;
-    padding: 2%;
-    text-decoration: underline;
-    font-size: 150%;
-
+h4{
+    color: white;
+    background-color: black;
+    align-items: center;
 }
 
 h5 {
     font-size: 20px;
     font-family: sans-serif;
-    margin-left: -35px;
+    margin-left: 20px; 
+    display: flex;
+    flex: 0 0 20%;
+    flex-direction: row-reverse;
 }
 
 p {
@@ -102,12 +158,11 @@ p {
     padding: 5%;
     margin-left: 28%;
     margin-top: -139px;
+    align-items: center;
+    justify-content: center;
 }
 
-h4 {
-    display: flex;
-}
-
+/* added link tags for social medias */
 
 .fa {
     padding: 20px;
@@ -151,3 +206,11 @@ footer {
     flex-direction: row;
     align-items: center;
 }
+
+/* Adding reszing for phones */
+
+@media screen and (min-width: 932px) {
+    .flex-container {
+    flex: 0 0 100%;
+    max-width: 100%;
+    }
