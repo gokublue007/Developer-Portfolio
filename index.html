@@ -1,66 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <title>Deveoploer Skills</title>
-        <link rel="stylesheet" href="./rest.css" />
-        <link rel="stylesheet" href="./style.css" />
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    </head>
 
-    <body>
-        <header class="header">
-            <h1><span class="eli">Eli</span><span class="as">as Vasquez</span></h1>
-            <li> <a class="one" href="#about-me">About Me</a></li>
-            <li> <a class="one" href="#work">Work</a></li>
-            <li> <a class="one" href="#contact">Contact Me</a></li>
-            <li> <a class="one"href="#Resume">Resume</a></li>
-        </header>
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Elias Portfolio</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css" />
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./Assets/css/style.css" />
+</head>
 
-        <section>
-            <header class="cool">Lorem ipsum!</header>
+<body>
+    <section class="navbar is-small is-info">
+        <div class="hero-body">
+            <nav class="level">
+                <h1 class="title">ELIAS VASQUEZ</h1>
+                <p class="level-item has-text-centered">
+                    <a class="#my">My work</a>
+                </p>
+                <p class="level-item has-text-centered">
+                    <a class="link is-info">Contact</a>
+                </p>
+                </nav>
+        </div>
+    </section>
+
+    <section class="section has-text-centered">
+        <h1 class="title has-text-centered">Full Stack Developer</h1>
+        <img id="One" src="./Assets/Images/BA10B657-44E1-4DD1-B3A2-B9183F30E6CF_1_105_c.jpeg" alt="Eli-pic">
         </section>
 
-        <main>
-            <div class="flex-container">
-            <h2 class="left-col">About Me</h2>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <section class="section has-text-centered">
+            <h1 class="title has-text-centered">My Work</h1>
+            <div class="container">
+                <a href="https://gokublue007.github.io/Park-Pass/" target="_blank"></a>
+                <img id="Two" src="./Assets/Images/park-pass.gif" alt="Park-Pass" target="_blank">
+                <h2></h2>
             </div>
-        </main>
-
-        <div class="flex-container">
-            <h3 class="left-col">Work</h3>
-            <div class="right-col">
-            <section class="project surf-report" >
-                <h4>Surf Report</h4>
-            </section>
-
-            <section class="project LED-Wall">
-                <h4>LED Wall</h4>
-            </section>
-
-            <section class="project Calculator">√
-                <h4>Something</h4>
-            </section>
-
-            <section class="project Pastel">
-                <h4>Pastel Puzzel</h4>
-            </section>
-
-            <section class="project Buddy">
-                <h4>Run Buddy</h4>
-            </section>
+            <div class="section has-text-centered" >
+                <img id="Three" src="./Assets/Images/Screen Shot 2022-04-13 at 12.20.29 AM.jpg" alt="5-day-Weather-Forecast">
+                <a href="https://gokublue007.github.io/5-day-Weather-Forecast-/"></a>
+                <img id="Three" src="./Assets/Images/Screen Shot 2022-04-13 at 2.26.38 PM.jpg" alt="Day-Planner">
+                <a href="https://gokublue007.github.io/24-Hour-Day-Organizer/"></a>
+                <img id="Three" src="./Assets/Images/Screen Shot 2022-04-13 at 12.30.31 AM.jpg" alt="Seed Generator">
+                <a href="https://gokublue007.github.io/Seed-Pharse-Characters-Generator/"></a>
             </div>
+        </section>
 
+        <section class="box is-justify-content-center">
+        <div class="field has" id="Four">
+            <label class="label has-text-centered">Contact Me</label>
+            <label class="label">Name</label>
+            <div class="control has-icons-left has-icons-right">
+                <input class="input" type="email" placeholder="Name">
+                <span class="icon is-small is-left">
+                <i class="fas fa-envelope fa-xs"></i>
+            </span>
+                <span class="icon is-right">
+                <i class="fas fa-check fa-xs"></i>
+            </span>
+            </div>
         </div>
 
-        <footer>
-            <h3 class="left-col">Contact Me</h3>
-            <h5> 999-999-9999</h5>
-            <h5> eliasvasquez7@gmail.com </h5>
-            <a href="#" class="fa fa-facebook"></a>
-            <a href="#" class="fa fa-twitter"></a>
-            <a href="#" class="fa fa-linkedin"></a>
+        <div class="field" id="Four">
+            <label class="label">Email</label>
+            <div class="control has-icons-left has-icons-right">
+                <input class="input" type="email" placeholder="Email">
+                <span class="icon is-left">
+                <i class="fas fa-envelope"></i>
+            </span>
+                <span class="icon is-right">
+                <i class="fas fa-check"></i>
+            </span>
+            </div>
+        </div>
+
+        <div class="field" id="Four">
+            <label class="label">Message</label>
+            <div class="control">
+            <textarea class="textarea" placeholder="Textarea"></textarea>
+            </div>
+        </div>
+    </section>
+
+        <footer class="footer" >
+            <div class="content has-text-centered">
+            <p>
+                <strong id="sub"> Dive Into All Code Created </strong> by <a href="https://github.com/gokublue007"> Elias Vasquez </a>
+            <div class="">
+            <a href="https://www.linkedin.com/in/elias-vasquez-b4a516185/" class="fa fa-2x fa-linkedin"></a>
+            <a href="https://github.com/gokublue007" class="fa fa-3x fa-github"></a>
+            <a href="https://twitter.com/?lang=en" class="fa fa-2x fa-twitter"></a>
+            </div>
+            </p>
+            </div>
         </footer>
-    </body>
+</body>
