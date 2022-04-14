@@ -1,16 +1,14 @@
-* {
-    font-family: 'Times New Roman', Times, serif;
-}
+
 
 body {
-    /* background-color: #000000; */
+    background-color: #000000;
 }
 
 #One {  
     background-repeat: no-repeat;
     background-position: center;
     border-radius: 30px;
-    box-shadow: 5px 8px 10px #000000;
+    box-shadow: 20px 25px 30px #02d1f5;
     max-height: 70vh;
 }
 
@@ -18,7 +16,14 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     border-radius: 30px;
-    box-shadow: 5px 8px 10px #000000;
+    box-shadow: 20px 25px 30px #5aa11c;
+    max-height: 40vh;
+}
+#Pass {
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 30px;
+    box-shadow: 20px 25px 30px #5aa11c;
     max-height: 40vh;
 }
 
@@ -26,33 +31,31 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     border-radius: 30px;
-    box-shadow: 5px 8px 10px #000000;
+    box-shadow: 20px 25px 30px #02d1f5;
     max-height: 20vh;
 }
 
-#Four {
-    max-width: 50%;
+#name {
+    box-shadow: 15px 25px 30px #f50202;
+}
+
+#eli {
+    box-shadow: 15px 25px 30px #02d1f5;
+}
+
+#slave {
+    box-shadow: 15px 25px 30px #5aa11c;
+}
+
+#us {
+    box-shadow: 15px 25px 30px #02d1f5;
 }
 
 #wow {
-    font-size: 25px;
+    font-size: 20px;
 }
 
-#Two {
-    flex: 1;
+#sub {
+    background-color: #000000;
 }
 
-#wow {
-    flex: 3;
-}
-
-.contact {
-    align-items: center;
-    margin: 0 auto;
-}
-
-.fuck {
-    display: flex;
-    flex-wrap: wrap;
-
-}
