@@ -37,3 +37,22 @@ body {
 #wow {
     font-size: 25px;
 }
+
+#Two {
+    flex: 1;
+}
+
+#wow {
+    flex: 3;
+}
+
+.contact {
+    align-items: center;
+    margin: 0 auto;
+}
+
+.fuck {
+    display: flex;
+    flex-wrap: wrap;
+
+}

@@ -6,10 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Elias Portfolio</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css" />
-    <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.1/themes/base/jquery-ui.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css" />
     <link rel="stylesheet" href="./Assets/css/style.css" />
 </head>
 
@@ -19,13 +18,13 @@
             <nav class="level">
                 <h1 class="title">ELIAS VASQUEZ</h1>
                 <p class="level-item has-text-centered">
-                    <a class="#my">About Me</a>
+                    <a href="#me">About Me</a>
                 </p>
                 <p class="level-item has-text-centered">
-                    <a class="link is-info">My work</a>
+                    <a href="#work" class="link is-info">My work</a>
                 </p>
                 <p class="level-item has-text-centered">
-                    <a class="link is-info">Contact</a>
+                    <a href="#contact" class="link is-info">Contact Me</a>
                 </p>
                 </nav>
         </div>
@@ -38,37 +37,38 @@
     </div>
         </section>
 
-        <section class="section has-text-centered">    
+        <section class="section has-text-centered" id="me">    
             <div>
             <h2 class="title has-text-centered">About Me</h2>
+            <div class="fuck">
             <img id="Two" src="./Assets/Images/C115677C-C5FE-4517-A717-CA311B6B5D83_1_105_c.jpeg" alt="Snow">
 
             <p id="wow">I'm from Aspen Colorado! I love the outdoor and do lots of activity all year round! By the end of this course I look foward to working into web3!</p>
-                
+        </div>
         </div>
     </section>
 
         <section class="section has-text-centered">
-            <h1 class="title has-text-centered">My Work</h1>
+            <h1 class="title has-text-centered" id="work">My Work</h1>
             <div class="container">
-                <a href="https://gokublue007.github.io/Park-Pass/" target="_blank"></a>
-                <img id="Two" src="./Assets/Images/park-pass.gif" alt="Park-Pass" target="_blank">
-                <h2></h2>
+                <a href="https://gokublue007.github.io/Park-Pass/" target="_blank"><img id="Two" src="./Assets/Images/park-pass.gif" alt="Park-Pass" target="_blank"></a>
+                <h2>Hello</h2>
             </div>
             <div class="section has-text-centered" >
-                <img id="Three" src="./Assets/Images/Screen Shot 2022-04-13 at 12.20.29 AM.jpg" alt="5-day-Weather-Forecast">
-                <a href="https://gokublue007.github.io/5-day-Weather-Forecast-/"></a>
-                <img id="Three" src="./Assets/Images/Screen Shot 2022-04-13 at 2.26.38 PM.jpg" alt="Day-Planner">
-                <a href="https://gokublue007.github.io/24-Hour-Day-Organizer/"></a>
-                <img id="Three" src="./Assets/Images/Screen Shot 2022-04-13 at 12.30.31 AM.jpg" alt="Seed Generator">
-                <a href="https://gokublue007.github.io/Seed-Pharse-Characters-Generator/"></a>
+                <a href="https://gokublue007.github.io/5-day-Weather-Forecast-/"><img id="Three" src="./Assets/Images/Screen Shot 2022-04-13 at 12.20.29 AM.jpg" alt="5-day-Weather-Forecast"></a>
+                
+                <a href="https://gokublue007.github.io/24-Hour-Day-Organizer/"><img id="Three" src="./Assets/Images/Screen Shot 2022-04-13 at 2.26.38 PM.jpg" alt="Day-Planner"></a>
+                
+                <a href="https://gokublue007.github.io/Seed-Pharse-Characters-Generator/"><img id="Three" src="./Assets/Images/Screen Shot 2022-04-13 at 12.30.31 AM.jpg" alt="Seed Generator"></a>
             </div>
         </section>
 
-        <section class="box is-justify-content-center">
-        <div class="field has" id="Four">
-            <label class="label has-text-centered">Contact Me</label>
-            <label class="label">Name</label>
+        <section>
+            <h3 class="title has-text-centered " id="contact">Contact Me</h3>
+        </section>
+        <section class="columns is-multiline is-mobile has-text-centered">
+        <div class="field column" id="Four">
+            <label class="label">Name:</label>
             <div class="control has-icons-left has-icons-right">
                 <input class="input" type="email" placeholder="Name">
                 <span class="icon is-small is-left">
@@ -80,8 +80,8 @@
             </div>
         </div>
 
-        <div class="field" id="Four">
-            <label class="label">Email</label>
+        <div class="field column" id="Four">
+            <label class="label">Email:</label>
             <div class="control has-icons-left has-icons-right">
                 <input class="input" type="email" placeholder="Email">
                 <span class="icon is-left">
@@ -93,10 +93,10 @@
             </div>
         </div>
 
-        <div class="field" id="Four">
-            <label class="label">Message</label>
+        <div class="field column" id="Four">
+            <label class="label">Message:</label>
             <div class="control">
-            <textarea class="textarea" placeholder="Textarea"></textarea>
+            <textarea class="textarea" placeholder="Leave Your Message Here"></textarea>
             </div>
         </div>
     </section>
